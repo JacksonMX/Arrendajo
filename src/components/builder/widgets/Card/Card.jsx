@@ -3,7 +3,7 @@ import Button from "../Button/Button";
 import Container from "../Container/Container";
 import Text from "../Text/Text";
 
-export const Card = ({background, padding = 20}) => {
+const Card = ({background, padding = 20}) => {
     return (
         <Container background={background} padding={padding}>
             <div className="text-only">
@@ -16,3 +16,5 @@ export const Card = ({background, padding = 20}) => {
         </Container>
     )
 }
+
+export default Card;

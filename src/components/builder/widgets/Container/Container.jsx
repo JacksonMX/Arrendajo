@@ -1,9 +1,12 @@
 import React from "react";
+import { useNode } from "@craftjs/core";
 import { Paper } from "@material-ui/core";
 
 const Container = ({background, padding = 0, children}) => {
+    const { connectors: {connect, drag} } = useNode();
+    
     return (
-        <Paper style={{margin: "5px 0", background, padding: `${padding}px`}}>
+        <Paper ref={ ref => connect(drag(ref))} style={{margin: "5px 0", background, padding: `${padding}px`}}>
             {children}
         </Paper>
     )
