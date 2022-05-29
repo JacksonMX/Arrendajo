@@ -4,7 +4,7 @@ import Topbar from '../../components/builder/tools/TopBar/TopBar';
 import Toolbox from '../../components/builder/tools/TookBox/ToolBox';
 import SettingsPanel from '../../components/builder/tools/SettingsPanel/SettingsPanel';
 import Container from '../../components/builder/widgets/Container/Container';
-import Card from '../../components/builder/widgets/Card/Card';
+import Card, { CardTop, CardBottom } from '../../components/builder/widgets/Card/Card';
 import Button from '../../components/builder/widgets/Button/Button';
 import Text from '../../components/builder/widgets/Text/Text'
 import { Editor, Frame, Element } from "@craftjs/core";
@@ -14,7 +14,7 @@ const Builder = () => {
     return (
         <div style={{margin: "0 auto", width: "800px"}}>
             <Typography variant="h5" align="center">A super simple page editor</Typography>
-            <Editor resolver={{Card, Button, Text, Container}}> 
+            <Editor resolver={{Card, Button, Text, Container,CardTop, CardBottom }}> 
                 <Grid container spacing={3}>
                     <Grid item xs>
                         <Frame>
