@@ -24,7 +24,6 @@ const SettingsPanel = () => {
                     />
                 </FormControl>
                 <MaterialButton
-                    color="default"
                     >
                     Delete
                 </MaterialButton>

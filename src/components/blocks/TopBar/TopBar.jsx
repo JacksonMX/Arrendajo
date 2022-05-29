@@ -12,7 +12,7 @@ const TopBar = () => {
                     />
                 </Grid>
                 <Grid item>
-                    <MaterialButton size="small" variant="outlined" color="secondary">Serialize JSON to console</MaterialButton>
+                    <MaterialButton size="small" variant="outlined">Serialize JSON to console</MaterialButton>
                 </Grid>
             </Grid>
         </Box>
