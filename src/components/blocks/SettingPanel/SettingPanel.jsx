@@ -7,7 +7,7 @@ const SettingsPanel = () => {
             <Grid container direction="column" spacing={0}>
                 <Grid item>
                     <Box pb={2}>
-                        <Grid container alignItems="center">
+                        <Grid alignItems="center">
                             <Grid item xs><Typography variant="subtitle1">Selected</Typography></Grid>
                             <Grid item><Chip size="small" color="primary" label="Selected" /></Grid>
                         </Grid>
@@ -24,7 +24,6 @@ const SettingsPanel = () => {
                     />
                 </FormControl>
                 <MaterialButton
-                    variant="contained"
                     color="default"
                     >
                     Delete

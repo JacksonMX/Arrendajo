@@ -9,7 +9,7 @@ const Editor = () => {
     return (
         <section style={{margin: "0 auto", width: "800px"}}>
             <Typography variant="h5" align="center">A super simple page editor</Typography>
-            <Grid spacing={3} style={{paddingTop: "10px"}}>
+            <Grid container spacing={3} style={{paddingTop: "10px"}}>
                 <TopBar />
                 <Grid item xs>
                     <Container padding={5} background="#eee">
