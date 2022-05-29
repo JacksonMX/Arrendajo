@@ -1,9 +1,10 @@
-import Editor from "./views/editor/Editor";
+import Builder from "./views/builder/Builder";
+
 
 function App() {
   return (
     <div className="App">
-      <Editor />
+      <Builder />
     </div>
   );
 }
